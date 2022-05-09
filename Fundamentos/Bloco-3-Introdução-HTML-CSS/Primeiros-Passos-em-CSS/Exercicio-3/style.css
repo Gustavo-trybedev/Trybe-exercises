@@ -1,0 +1,24 @@
+h1{
+text-align: center;
+}
+
+p{
+text-align: center;
+}
+
+div{
+    
+    background-color: green
+
+}
+
+li:hover {
+background-color: brown;
+
+}
+ li:active {
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+ }
+
+ 
