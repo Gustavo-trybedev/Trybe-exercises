@@ -1,0 +1,23 @@
+.header{
+    font-size: 30px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+
+.navlist{
+
+    display: flex;
+    justify-content: space-around;
+    background-color: aquamarine;
+    border: 1px solid black;
+
+}
+
+.section1{
+
+    margin-bottom: 40px;
+    width: 75%;
+}
