@@ -1,23 +1,74 @@
+
 .header{
     font-size: 30px;
-    color: blue;
+    color: white;
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/OdontodactylusScyllarus2.jpg/1200px-OdontodactylusScyllarus2.jpg);
+    background-size:35%;
+    background-position: 1% 30%;
+   
 }
 
 
 .navlist{
 
+    font-size: 20px;
     display: flex;
     justify-content: space-around;
-    background-color: aquamarine;
     border: 1px solid black;
+    background-color: #0C73B2;
 
+    
+
+}
+
+body{
+    background-color: #3CBCC7;
+    background-size: cover;
+    
 }
 
 .section1{
 
-    margin-bottom: 40px;
-    width: 75%;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 60px;
+    width: 50%;
+    line-height: 22px;
+
+}
+
+h2{
+
+    font-size: 40px;
+
+}
+
+.section2{
+
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 60px;
+    width: 50%;
+    line-height: 22px;
+}
+
+.section3{
+
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 60px;
+    width: 50%;
+    line-height: 22px;
+}
+
+.img1{
+
+    width: 400px;
+    
+    border: 1px red solid;
 }
