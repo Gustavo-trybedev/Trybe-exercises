@@ -44,3 +44,23 @@ function correction() {
 
 correction();
 
+function caseSensitive() {
+    let lowerCase = document.getElementsByTagName('p')[0];
+    lowerCase.innerHTML = lowerCase.innerHTML.toLowerCase();
+
+// for (let i = 0; i < lowerCase.length; i += 1) {
+//lowerCase[i].innerHTML = lowerCase[i].innerHTML.toLowerCase();
+//};
+
+}
+caseSensitive();
+
+function showParagraphs() {
+    let allP = document.getElementsByTagName('p');
+    
+    for (let i = 0; i < allP.length; i += 1) {
+        console.log(allP[i].innerHTML);
+    }
+}
+
+showParagraphs();
