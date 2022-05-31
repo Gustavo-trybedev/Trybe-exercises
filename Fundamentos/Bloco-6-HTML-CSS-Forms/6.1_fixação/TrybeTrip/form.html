@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="get">
+        <fieldset id="fieldset">
+            <div class="container">
+                <input type="text" name="name" placeholder="Nome completo" minlength="10" maxlength="40">
+            </div>
+            <div class="container">
+                <input type="email" name="e-mail" placeholder="Digite seu e-mail" minlength="10" maxlength="50">
+            </div>
+            <label for="destination1">Cidade</label>
+            <input type="radio" id="destination1" className="radios" name="destinations" value="Cidade" required>
+            <label for="destination2">Campo</label>
+            <input type="radio" id="destination2" className="radios" name="destinations" value="Campo" required>
+            <label for="destination3">Praia</label>
+            <input type="radio" id="destination3" className="radios" name="destinations" value="Praia" required>
+            <label for="destination4">Montanhas</label>
+            <input type="radio" id="destination4" className="radios" name="destinations" value="Montanhas" required>
+            <br>
+            <label for="why">Por que você deveria ser a pessoa desenvolvedora escolhida pelo concurso TrybeTrip? </label>
+            <br />
+            <textarea name="why" id="why" cols="60" rows="10" placeholder=>Digite sua resposta vencedora aqui</textarea>
+            <br />
+            <div class="container">
+                Data <input type="date" name="date" placeholder="dd/mm/aaaa" required>
+            </div>
+            <label for="promo">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe? </label>
+            <input type="checkbox" name="promo" id="promo">
+            <br />
+            <label for="agreement">Concordo que imagens de minhas férias poderão ser usadas na divulgação de concursos futuros?</label>
+            <input type="checkbox" name="agreement" id="agreement" required>
+    
+        </fieldset>
+        <br>
+        <div class="send-button-container">
+            <button type="submit" id="send-button">Enviar</button>
+        </div>
+        <div class="reset-button-container">
+            <button type="reset" id="reset-button">Resetar formulário</button>
+        </div>
+
+
+
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
