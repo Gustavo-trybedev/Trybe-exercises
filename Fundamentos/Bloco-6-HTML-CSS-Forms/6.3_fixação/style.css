@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+.head-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2f2f2f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.head-container p {
+    color: white;
+    font-size: 25px;
+}
+
+.head-container a {
+    color: white;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.logo-trybe {
+    width: 70x;
+    height: 70px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.subtitle-container {
+    border: solid 1px #2f2f2f;
+    background-color: #c8c8c8;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.subtitle-container p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.skills-container {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.skills {
+    margin: auto;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.skills-container img {
+    width: 70x;
+    height: 70px;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border-style: groove;
+    background-color: #c8c8c8;
+}
