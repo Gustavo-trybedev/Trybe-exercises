@@ -1,0 +1,9 @@
+.display-3 {
+display: flex;
+justify-content: center;
+}
+
+.btn {
+    margin-bottom: 7px;
+}
+
