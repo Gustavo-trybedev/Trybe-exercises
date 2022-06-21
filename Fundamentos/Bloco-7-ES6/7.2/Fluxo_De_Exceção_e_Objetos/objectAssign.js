@@ -7,7 +7,7 @@
 // Object.assign(destino, objeto1, objeto2, objeto3, objeto4);
 
 const person = {
-    name: 'Alberto',
+    name: 'Leandro',
     lastName: 'Gomes',
     age: 20,
 };
